@@ -38,7 +38,7 @@ jobs:
     - name: Run SonarQube Scan
       run: |
           sonar-scanner \
-            -Dsonar.projectKey=sai-project \
+            -Dsonar.projectKey=gaurav-project \
             -Dsonar.sources=. \
             -Dsonar.host.url='http://13.127.171.28:9000/' \
             -Dsonar.login='squ_7179aebba0859c3cad3751b986b38483845c0a37'
