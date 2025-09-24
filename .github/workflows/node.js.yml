@@ -21,6 +21,7 @@ jobs:
     - run: npm ci
     - run: npm -v
     - run: node -v
+    - run: npm start
 
   security:
     runs-on: ubuntu-latest
