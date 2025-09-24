@@ -54,5 +54,5 @@ jobs:
       with:
         node-version: '24'
     - run: npm install pm2
-    - run: npm run pm2-stop
+#    - run: npm run pm2-stop
     - run: npm run pm2-start
