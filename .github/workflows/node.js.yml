@@ -18,5 +18,6 @@ jobs:
       with:
         node-version: '24'
     - run: npm install
-    - run: node ci
+    - run: npm ci
     - run: npm -v
+    - run: node -v
